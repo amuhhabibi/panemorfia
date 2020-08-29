@@ -1,5 +1,48 @@
-/* body{
-    background-image: url("ab.png");
+@font-face {
+    font-family: 'Font1';
+    src:  url('fonts/Sacramento-Regular.ttf')  format('truetype')
+}
+@font-face {
+    font-family: 'Font2';
+    src:  url('fonts/RobotoSlab-VariableFont_wght.ttf')  format('truetype')
+}
+
+body{
+    /* background-image: url("ab.png"); */
+    background-color: #2F2E2E;
+    color: #FDF6F0;
     background-position: center;
     background-size: cover;
-} */
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+header h1{
+    font-family: Font1;
+}
+
+main{
+    margin:auto;
+    width: 75vw;
+    margin-top: 30px;
+    text-align: center;
+}
+
+main div{
+    background-color: #FDF6F0;
+    border: 2px solid floralwhite;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.pilihan{
+    font-family: Font2;
+    text-decoration: none;
+    color: #2F2E2E;
+}
