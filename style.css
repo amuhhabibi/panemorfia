@@ -28,6 +28,7 @@ header h1{
 }
 
 main{
+    max-width: 680px;
     margin:auto;
     width: 75vw;
     margin-top: 30px;
